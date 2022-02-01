@@ -1,0 +1,83 @@
+.resultado{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leia-mais{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    border-radius: 12px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(99, 28, 165);
+}
+a{
+
+    width: 30%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color: rgb(255, 203, 235);
+}
+.oi{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+h3{
+    color: blue;
+}
+
+@keyframes title-anime {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.alunos {
+    animation-name: alunos;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes alunos {
+    from {color: rgb(0, 0, 0);}
+  to {color: rgb(255, 0, 149);}
+}
